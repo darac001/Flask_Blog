@@ -4,13 +4,13 @@
 Basic Blog website with user registration and login forms.
 Flask, Python, SQLite.
 
-flaskr/__init__.py is The application factory with create_app function which creates Flask instance.
+#### flaskr/__init__.py is The application factory with create_app function which creates Flask instance.
 In __init__.py we import and register the sql database functions created in db.py. 
 Also, we need to import and register any blueprint, in this case that would be blueprint from
 auth.py and blog.py
 
-flaskr/auth.py containes the blueprint for auth and the views related to authentication.
-#### Views:
+#### flaskr/auth.py containes the blueprint for auth and the views related to authentication.
+Views:
 Register:
 When visiting auth/register register() function will render the template with HTML for registration auth/register.html
 If request method is POST -
@@ -35,8 +35,8 @@ login_required() function is used for in blog views as decorator to make sure cr
 can be done only by the logged user
 
 
-flaskr/blog.py containes the blueprint for blog and the views related to blog displaying, creating, editing and deleting.
-#### Views:
+#### flaskr/blog.py containes the blueprint for blog and the views related to blog displaying, creating, editing and deleting.
+Views:
 Index:
 index() function renders the template with all the posts in the database. (blog/index.html)
 
