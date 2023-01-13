@@ -7,6 +7,16 @@ Flask, Python, SQLite.
 #### Installation:
 Install with pip:
 $ pip install -r requirements.txt
+$ pip3 install virtualenv
+$py -3 -m venv venv
+$venv\Scripts\activate
+$pip install Flask
+
+Initialize the database
+$ flask --app flaskr init-db
+
+Run in development server
+$ flask --app flaskr --debug run
 
 #### Flask application structure:
 /home/user/Projects/FLASK_BLOG
