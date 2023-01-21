@@ -72,6 +72,7 @@ Run in development server
 $ flask --app flaskr --debug run
 
 #### Project Directory:
+```
 /home/user/Projects/FLASK_BLOG
 ├── flaskr/
 │   ├── __init__.py
@@ -98,3 +99,5 @@ $ flask --app flaskr --debug run
 ├── setup.py
 └── MANIFEST.in
 └── README.md
+
+```
